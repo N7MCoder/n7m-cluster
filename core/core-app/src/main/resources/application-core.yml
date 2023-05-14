@@ -1,0 +1,17 @@
+server:
+  compression:
+    enabled: true
+spring:
+  thymeleaf:
+    cache: false
+  servlet:
+    multipart:
+      max-file-size: 5MB
+  profiles:
+    include:
+      - discovery
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

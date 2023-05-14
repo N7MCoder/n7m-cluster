@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    nacos:
+      username: ${cloud.nacos.username}
+      password: ${cloud.nacos.password}
+      discovery:
+        server-addr: ${cloud.nacos.server}

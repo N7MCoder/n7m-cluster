@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    include:
+      - discovery
+  gateway:
+    discovery:
+      locator:
+        enabled: false
